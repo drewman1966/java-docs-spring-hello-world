@@ -15,11 +15,11 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		string sNewLine = "\n";
-		string sMessage = "Firewood for sale." + sNewLine + sNewLine;
+		//string sNewLine = "\n";
+		string sMessage = "Firewood for sale." //+ sNewLine + sNewLine;
 
-		sMessage += "York, South Carolina";
-		
+		sMessage += " in York, South Carolina";
+	
 		return sMessage;
 	}
 }
