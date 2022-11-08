@@ -15,7 +15,8 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		string sMessage = "Firewood for sale." + '\r\n';
+		string sNewLine = "\n";
+		string sMessage = "Firewood for sale." + sNewLine + sNewLine;
 
 		sMessage += "York, South Carolina";
 		
